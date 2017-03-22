@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.reversecoder.library</groupId>
+  <artifactId>rc-library</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170322095454</lastUpdated>
+  </versioning>
+</metadata>
