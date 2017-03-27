@@ -7,13 +7,15 @@ import com.reversecoder.library.androidproperties.Property;
 
 public class Config extends AssetsProperties {
 
-  @Property int max;
-  @Property("rate_value") float rateValue;
-  @Property double temperature;
-  @Property String message;
-  @Property boolean condition;
+    private static String fileName = "Config";
 
-  public Config(Context context) {
-    super(context);
-  }
+    @Property int max;
+    @Property("rate_value") float rateValue;
+    @Property double temperature;
+    @Property String message;
+    @Property boolean condition;
+
+    public Config(Context context) {
+        super(context, fileName);
+    }
 }
