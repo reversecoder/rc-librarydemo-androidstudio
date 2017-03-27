@@ -3,6 +3,8 @@ package com.reversecoder.library.androidproperties;
 import android.content.Context;
 import android.content.res.AssetManager;
 
+import com.reversecoder.library.utils.AllSettingsManager;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -50,5 +52,12 @@ public class PropertyLoader {
      */
     public String getProperty(String key) throws IOException {
         return mProperties.getProperty(key);
+    }
+
+    public boolean hasProperty(String key){
+        if(!AllSettingsManager.isNullOrEmpty(key)){
+            return true;
+        }
+        return false;
     }
 }

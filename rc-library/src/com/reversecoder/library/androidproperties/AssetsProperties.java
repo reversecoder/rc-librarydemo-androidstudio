@@ -18,14 +18,8 @@ public class AssetsProperties {
 
     private Context mContext;
     private Resources mResources;
-    private String mPropertiesFileName = "config";
+    private String mPropertiesFileName = "";
     private java.util.Properties mProperties = new java.util.Properties();
-
-    public AssetsProperties(Context context) {
-        mContext = context;
-        mResources = context.getResources();
-        openProperties(mResources);
-    }
 
     public AssetsProperties(Context context, String propertiesFileName) {
         mContext = context;
@@ -133,6 +127,9 @@ public class AssetsProperties {
     }
 
     public boolean hasProperty(String key){
-        return AllSettingsManager.isNullOrEmpty(key);
+        if(!AllSettingsManager.isNullOrEmpty(key)){
+            return true;
+        }
+        return false;
     }
 }
