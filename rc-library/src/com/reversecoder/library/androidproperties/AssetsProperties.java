@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.util.Log;
 
+import com.reversecoder.library.utils.AllSettingsManager;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
@@ -128,5 +130,9 @@ public class AssetsProperties {
 
     private void logParseError(String key, String target) {
         Log.e(TAG, "AssetsProperties can't parse property " + key + " as " + target);
+    }
+
+    public boolean hasProperty(String key){
+        return AllSettingsManager.isNullOrEmpty(key);
     }
 }
