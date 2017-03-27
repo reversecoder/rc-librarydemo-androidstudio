@@ -9,11 +9,16 @@ public class Config extends AssetsProperties {
 
     private static String fileName = "Config";
 
-    @Property int max;
-    @Property("rate_value") float rateValue;
-    @Property double temperature;
-    @Property String message;
-    @Property boolean condition;
+    @Property
+    public int max;
+    @Property("rate_value")
+    public float rateValue;
+    @Property
+    public double temperature;
+    @Property
+    public String message;
+    @Property
+    public boolean condition;
 
     public Config(Context context) {
         super(context, fileName);
