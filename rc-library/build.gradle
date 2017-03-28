@@ -52,6 +52,7 @@ dependencies {
     compile 'com.nineoldandroids:library:2.4.0'
     compile files('libs/gson-2.5.jar')
     compile files('libs/picasso-2.5.2.jar')
+    provided files('provided-libs/org.apache.http.legacy.jar')
 }
 
 //options for github
