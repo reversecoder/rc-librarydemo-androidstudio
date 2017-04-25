@@ -44,6 +44,7 @@ gradle/
 *.ipr
 *~
 *.swp
+*.keystore
 
 # SigningConfig
 signing.properties
