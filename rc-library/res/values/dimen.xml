@@ -20,4 +20,13 @@
     <!-- Segmented radio group -->
     <dimen name="radio_button_conner_radius">5dp</dimen>
     <dimen name="radio_button_stroke_border">1dp</dimen>
+
+    <!-- ripple background -->
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <!-- floating action button-->
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
 </resources>

@@ -48,8 +48,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.reversecoder.library.model.PInfo;
-import com.reversecoder.library.typefacehelper.TypefaceCollection;
-import com.reversecoder.library.typefacehelper.TypefaceHelper;
+import com.reversecoder.library.typeface.TypefaceCollection;
+import com.reversecoder.library.typeface.TypefaceHelper;
 
 import org.json.JSONException;
 import org.json.JSONObject;

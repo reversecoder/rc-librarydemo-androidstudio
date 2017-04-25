@@ -42,4 +42,7 @@
     <color name="off_black_bg"> #373535</color>
     <color name="list_divider_color">#909a9f</color>
     <color name="selected_item_row_bg_color">#E4DFCB</color>
+
+    <!-- ripple view -->
+    <color name="rippelColor">#FFFFFF</color>
 </resources>
