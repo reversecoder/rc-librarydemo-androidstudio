@@ -111,3 +111,19 @@ iv) Builder job
     setLooping(true);
     setScalableType(ScalableType.FIT_CENTER);
 ```
+
+## 6. StateLayout
+### a) StateLayout
+#### Usage:
+i) Basic usage
+```
+    StateLayout mStateLayout = (StateLayout) findViewById(R.id.sl_layout_state);
+    mStateLayout.setStateLayoutView(StateLayout.VIEW_STATE.VIEW_LOADING);
+```
+
+ii) Customize usage
+```
+    mStateLayout.setLoadingMessage("It's loading.");
+    mStateLayout.setContentView(R.layout.state_layout_content);
+    mStateLayout.setEmptyImage(R.drawable.ic_empty);
+```

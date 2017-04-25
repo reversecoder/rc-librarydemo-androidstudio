@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- activity base -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
 
+    <!--vertical stepper-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorConnector">#BDBDBD</color>
+    <color name="colorError">#f44336</color>
+    <color name="colorTextNumbers">#ffffff</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextTertiary">#727272</color>
+    <color name="off_orange">#ffffbb33</color>
+
+    <!-- Segmented radion group -->
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <color name="btn_border_color_tint">#009688</color>
+    <color name="colorTeal">#009688</color>
+    <color name="colorTealLight">#04f9e2</color>
+
+    <!-- notifydialogeffects -->
+    <color name="text_colors">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white_light">#EDEDED</color>
+    <color name="title_color">#7e7e7e</color>
+    <color name="green_bg">#ff669900</color>
+    <color name="yellow_bg">#ffff00</color>
+    <color name="off_blue">#ADD8E6</color>
+    <color name="Off_white">#E4E9F2</color>
+    <color name="off_black"> #373535</color>
+    <color name="off_yellow">#FFE26F</color>
+    <color name="off_green">#E7FAD0</color>
+    <color name="off_black_bg"> #373535</color>
+    <color name="list_divider_color">#909a9f</color>
+    <color name="selected_item_row_bg_color">#E4DFCB</color>
 </resources>

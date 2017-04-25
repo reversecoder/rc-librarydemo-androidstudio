@@ -14,7 +14,7 @@
             android:id="@+id/progressbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:indeterminateDrawable="@drawable/progress_fragment_dialog_rotation" />
+            android:indeterminateDrawable="@drawable/rotate_progress_fragment_dialog" />
 
         <TextView
             android:id="@+id/textView_msg"

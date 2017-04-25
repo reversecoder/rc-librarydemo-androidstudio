@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- base activity -->
+    <dimen name="activity_title_text_size">20sp</dimen>
 
+    <!-- different font size -->
+    <dimen name="huge_large_font_size">32sp</dimen>
+    <dimen name="extra_large_font_size">26sp</dimen>
+    <dimen name="large_font_size">22sp</dimen>
+    <dimen name="medium_font_size">18sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="micro_font_size">12sp</dimen>
+
+    <!-- sweet alert dialog -->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="big_circle_width">5dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <!-- Segmented radio group -->
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
 </resources>

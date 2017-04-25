@@ -1,7 +1,6 @@
 package com.reversecoder.library.model;
 
 /**
- *
  * @author Md. Rashadul Alam
  */
 public class TaskResult<T> {
