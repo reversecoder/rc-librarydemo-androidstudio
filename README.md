@@ -3,7 +3,7 @@
 ## ProgressDialog
 #### 1. ProgressFragmentDialog
 ##### Demo:
-![ProgressFragmentDialogLogo](https://github.com/rc-librarydemo-androidstudio/rc-library/res/drawable-nodpi/rc_progress_fragment_dialog_loading.png)
+![ProgressFragmentDialogLogo](https://github.com/reversecoder/rc-librarydemo-androidstudio/blob/master/rc-library/res/drawable-nodpi/ic_progress_fragment_dialog_loading.png)
 ##### Usage:
 ```
 //showing progess dialog
