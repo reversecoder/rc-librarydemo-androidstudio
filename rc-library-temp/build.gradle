@@ -50,9 +50,12 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:8.4.0'
     compile 'com.google.android.gms:play-services-location:8.4.0'
     compile 'com.nineoldandroids:library:2.4.0'
+    compile files('libs/gson-2.5.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    provided files('provided-libs/org.apache.http.legacy.jar')
 }
 
-//properties for github release
+//options for github
 repositories {
     maven {
         url "https://raw.github.com/synergian/wagon-git/releases"
