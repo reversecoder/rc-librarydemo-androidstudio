@@ -1,9 +1,9 @@
-#Libraries for android dev
+# Libraries for android dev
 
-##ProgressDialog
+## ProgressDialog
 #### 1. ProgressFragmentDialog
 ##### Demo:
-![Example1](rc-library/res/drawable-nodpi/rc_progress_fragment_dialog_loading.png)
+![ProgressFragmentDialogLogo](https://github.com/rc-librarydemo-androidstudio/rc-library/res/drawable-nodpi/rc_progress_fragment_dialog_loading.png)
 ##### Usage:
 ```
 //showing progess dialog
