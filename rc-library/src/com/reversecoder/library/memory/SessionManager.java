@@ -1,23 +1,24 @@
-package com.reversecoder.library.utils;
+package com.reversecoder.library.memory;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.preference.PreferenceManager;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.reversecoder.library.model.BaseModelItem;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.reversecoder.library.model.BaseModelItem;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import java.util.ArrayList;
+import java.util.HashMap;
 
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.content.res.Resources;
-import android.preference.PreferenceManager;
-import android.util.TypedValue;
-
+/**
+ * @author Md. Rashadul Alam
+ */
 public class SessionManager {
 
     /**
@@ -80,7 +81,8 @@ public class SessionManager {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         Gson gson = new Gson();
         String json = sp.getString(key, "");
-        java.lang.reflect.Type type = new TypeToken<HashMap>() {}.getType();
+        java.lang.reflect.Type type = new TypeToken<HashMap>() {
+        }.getType();
         return gson.fromJson(json, type);
     }
 
@@ -262,9 +264,4 @@ public class SessionManager {
             return false;
         }
     }
-
-    public static int dpToPx(Resources res, int dp) {
-        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, res.getDisplayMetrics());
-    }
-
 }

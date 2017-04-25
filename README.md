@@ -96,3 +96,11 @@ iv) Builder job
     speedometer.setSpeed(0,1000,300);
 
 ```
+
+## 1. Memory
+### a) SessionManager
+#### Usage:
+```
+    SessionManager.setStringSetting(context, "USER_NAME", "Rashed");
+    SessionManager.getStringSetting(context, "USER_NAME");
+```
