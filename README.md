@@ -11,7 +11,6 @@
 
     //hiding progress dialog
     new ProgressDialog().hide("loadingUser");
-
 ```
 
 ## 2. AsyncTask
@@ -74,7 +73,6 @@ iv) Builder job
 ```
     BatteryIndicatorGauge batteryindicator = (BatteryIndicatorGauge) findViewById(R.id.batteryindicator);
     batteryindicator.setValue(50, 0, 0);
-
 ```
 
 ### b) SpeedometerGauge
@@ -94,7 +92,6 @@ iv) Builder job
     speedometer.addColoredRange(80,100,Color.YELLOW);
     speedometer.addColoredRange(100,120,Color.RED);
     speedometer.setSpeed(0,1000,300);
-
 ```
 
 ## 4. Memory
@@ -103,4 +100,14 @@ iv) Builder job
 ```
     SessionManager.setStringSetting(context, "USER_NAME", "Rashed");
     SessionManager.getStringSetting(context, "USER_NAME");
+```
+
+## 5. VideoView
+### a) AdvancedVideoView
+#### Usage:
+```
+    Uri mSource = Uri.parse(filePath);
+    setDataSource(mSource);
+    setLooping(true);
+    setScalableType(ScalableType.FIT_CENTER);
 ```
