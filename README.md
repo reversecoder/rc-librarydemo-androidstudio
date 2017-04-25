@@ -6,11 +6,11 @@
 ![ProgressFragmentDialogLogo](https://github.com/reversecoder/rc-librarydemo-androidstudio/blob/master/rc-library/res/drawable-nodpi/ic_progress_fragment_dialog_loading.png)
 #### Usage:
 ```
-//showing progess dialog
-new ProgressDialog().show(getActivity(), "Loading...", "loadingUser");
+    //showing progess dialog
+    new ProgressDialog().show(getActivity(), "Loading...", "loadingUser");
 
-//hiding progress dialog
-new ProgressDialog().hide("loadingUser");
+    //hiding progress dialog
+    new ProgressDialog().hide("loadingUser");
 
 ```
 
@@ -66,4 +66,33 @@ iv) Builder job
     mHandler.postDelayed(new Runnable() {
         //do something
     },5000);
+```
+
+## 3. Gauge
+### a) BatteryIndicatorGauge
+#### Usage:
+```
+    BatteryIndicatorGauge batteryindicator = (BatteryIndicatorGauge) findViewById(R.id.batteryindicator);
+    batteryindicator.setValue(50, 0, 0);
+
+```
+
+### b) SpeedometerGauge
+#### Usage:
+```
+    SpeedometerGauge speedometer = (SpeedometerGauge) findViewById(R.id.speedometer);
+    speedometer.setLabelConverter(new SpeedometerGauge.LabelConverter(){
+        @Override
+        public String getLabelFor ( double progress, double maxProgress){
+        return String.valueOf((int) Math.round(progress));
+    }
+    });
+    speedometer.setMaxSpeed(120);
+    speedometer.setMajorTickStep(10);
+    speedometer.setMinorTicks(4);
+    speedometer.addColoredRange(0,80,Color.GREEN);
+    speedometer.addColoredRange(80,100,Color.YELLOW);
+    speedometer.addColoredRange(100,120,Color.RED);
+    speedometer.setSpeed(0,1000,300);
+
 ```
