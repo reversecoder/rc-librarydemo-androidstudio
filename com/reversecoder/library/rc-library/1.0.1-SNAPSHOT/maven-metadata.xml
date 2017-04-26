@@ -2,11 +2,12 @@
 <metadata>
   <groupId>com.reversecoder.library</groupId>
   <artifactId>rc-library</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>1.0.0-SNAPSHOT</version>
-      <version>1.0.1-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20170426.093502</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20170426093502</lastUpdated>
   </versioning>
 </metadata>
