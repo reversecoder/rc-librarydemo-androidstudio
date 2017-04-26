@@ -45,4 +45,9 @@
 
     <!-- ripple view -->
     <color name="rippelColor">#FFFFFF</color>
+
+    <!--Dialog exit app-->
+    <color name="dialog_exit_app_title_bg">#e68700</color>
+    <color name="dialog_exit_app_message_bg">#f1f1f1</color>
+    <color name="dialog_exit_app_message_font">#7d7d7d</color>
 </resources>

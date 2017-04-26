@@ -19,8 +19,10 @@ import android.util.Log;
 /**
  * This class encapsulates methods for requesting a server via HTTP GET/POST and
  * provides methods for parsing response from the server.
+ *
+ * @author Md. Rashsadul Alam
  */
-public class HttpUtility {
+public class HttpRequestManager {
 
     public static TaskResult doGetRequest(String requestURL) {
 
