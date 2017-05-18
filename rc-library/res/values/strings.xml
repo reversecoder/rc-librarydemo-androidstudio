@@ -10,4 +10,10 @@
     <string name="dialog_ok">OK</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="LOADING">Loading...</string>
+
+    <!-- debug logger-->
+    <string name="format_YMDHMSs" translatable="false">yyyy-MM-dd HH:mm:ss.SSS</string> <!-- for logging and debugging -->
+    <string name="format_YMDHM" translatable="false">yyyy.MM.dd @ HH:mm</string>
+    <string name="format_YMDHMS" translatable="false">yyyy-MM-dd-HH-mm-ss</string> <!-- for log file filename -->
+
 </resources>
