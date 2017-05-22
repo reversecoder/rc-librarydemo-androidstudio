@@ -23,7 +23,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.location.Location;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -46,7 +45,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.gms.maps.model.LatLng;
 import com.reversecoder.library.model.PInfo;
 import com.reversecoder.library.typeface.TypefaceCollection;
 import com.reversecoder.library.typeface.TypefaceHelper;
@@ -1125,44 +1123,6 @@ public class AllSettingsManager {
     public static int getPixelsFromDp(Context context, float dp) {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (dp * scale + 0.5f);
-    }
-
-    public static double calculateDistance(Location firstLocation, Location secondLocation) {
-        double distance = 0.0;
-        try {
-            //For first location
-            Location firstLoc = new Location("firstLocation");
-            firstLoc.setLatitude(firstLocation.getLatitude());
-            firstLoc.setLongitude(firstLocation.getLongitude());
-            //For second location
-            Location secondLoc = new Location("secondLocation");
-            secondLoc.setLatitude(secondLocation.getLatitude());
-            secondLoc.setLongitude(secondLocation.getLongitude());
-            //Calculate distance
-            distance = firstLoc.distanceTo(secondLoc);
-        } catch (Exception e) {
-            return 0.0;
-        }
-        return distance;
-    }
-
-    public static double calculateDistance(LatLng firstLocation, LatLng secondLocation) {
-        double distance = 0.0;
-        try {
-            //For first location
-            Location firstLoc = new Location("firstLocation");
-            firstLoc.setLatitude(firstLocation.latitude);
-            firstLoc.setLongitude(firstLocation.longitude);
-            //For second location
-            Location secondLoc = new Location("secondLocation");
-            secondLoc.setLatitude(secondLocation.latitude);
-            secondLoc.setLongitude(secondLocation.longitude);
-            //Calculate distance
-            distance = firstLoc.distanceTo(secondLoc);
-        } catch (Exception e) {
-            return 0.0;
-        }
-        return distance;
     }
 
     public static double formatDoubleValue(double number, int numberAfterDecimal) {
