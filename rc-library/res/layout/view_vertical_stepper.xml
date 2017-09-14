@@ -136,11 +136,11 @@
                     android:id="@+id/continue_button"
                     android:layout_width="110dp"
                     android:layout_height="45dp"
-                    android:background="@drawable/shape_border_rectangle_white"
+                    android:background="@drawable/shape_border_rectangle_black"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:text="Continue"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorCircleActive"
                     android:textSize="@dimen/small_font_size"/>
 
                 <Button
@@ -153,7 +153,7 @@
                     android:padding="5dp"
                     android:singleLine="true"
                     android:text="Cancel"
-                    android:textColor="@color/Off_white"
+                    android:textColor="@color/colorCircleInactive"
                     android:textSize="@dimen/small_font_size"/>
             </LinearLayout>
 

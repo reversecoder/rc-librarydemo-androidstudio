@@ -5,8 +5,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
 
     <!--vertical stepper-->
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPink">#FF4081</color>
+    <color name="colorAccent">#6d6b7b</color>
+    <color name="colorCircleActive">#272531</color>
+    <color name="colorCircleInactive">#BDBDBD</color>
     <color name="colorConnector">#BDBDBD</color>
     <color name="colorError">#f44336</color>
     <color name="colorTextNumbers">#ffffff</color>
