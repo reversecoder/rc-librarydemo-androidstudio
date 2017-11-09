@@ -12,7 +12,7 @@ import android.view.View;
 public abstract class OnSingleClickListener implements View.OnClickListener {
     private static final String TAG = OnSingleClickListener.class.getSimpleName();
 
-    private static final long MIN_DELAY_MS = 3000;
+    private static final long MIN_DELAY_MS = 1500;
 
     private long mLastClickTime;
 
