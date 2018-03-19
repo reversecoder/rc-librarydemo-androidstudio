@@ -1,4 +1,4 @@
-package com.bjit.applaunchnotify.util;
+package com.reversecoder.library.stopwatch;
 
 import android.content.Context;
 import android.os.SystemClock;

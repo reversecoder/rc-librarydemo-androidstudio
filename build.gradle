@@ -22,10 +22,10 @@ allprojects {
     ext.appVersionCode = 1
     ext.appVersionName = "1.0.1"
     ext.appMinSdkVersion = 15
-    ext.appTargetSdkVersion = 26
-    ext.appCompileSdkVersion = 26
-    ext.appBuildToolsVersion = '26.0.2'
-    ext.supportlibraryVersion = '26.1.0'
+    ext.appTargetSdkVersion = 27
+    ext.appCompileSdkVersion = 27
+    ext.appBuildToolsVersion = '27.0.3'
+    ext.supportlibraryVersion = '27.0.2'
 }
 
 task clean(type: Delete) {
