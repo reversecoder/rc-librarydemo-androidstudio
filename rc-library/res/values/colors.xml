@@ -16,11 +16,11 @@
     <color name="off_orange">#ffffbb33</color>
 
     <!-- Segmented radion group -->
-    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_selected_color">@color/colorPrimaryDark</color>
     <color name="radio_button_unselected_color">@android:color/transparent</color>
-    <color name="btn_border_color_tint">#009688</color>
-    <color name="colorTeal">#009688</color>
-    <color name="colorTealLight">#04f9e2</color>
+    <color name="btn_border_color_tint">@color/colorPrimary</color>
+    <color name="colorTeal">@color/colorPrimary</color>
+    <color name="colorTealLight">@color/colorPrimary</color>
 
     <!-- notifydialogeffects -->
     <color name="text_colors">#FFFFFF</color>
